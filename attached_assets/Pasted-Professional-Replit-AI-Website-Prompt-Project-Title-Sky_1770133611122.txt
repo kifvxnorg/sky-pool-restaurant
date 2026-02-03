@@ -1,0 +1,178 @@
+Professional Replit AI Website Prompt
+
+Project Title: Sky Pool Restaurant – Luxury Animated Website
+Restaurant: Sky Pool Restaurant (Rooftop – Continental & Buffet)
+Location: Six Seasons Hotel, 15th floor, House 19, Road 96, Gulshan 2, Dhaka 1212, Bangladesh
+Contact: +8801987009810
+Cuisine: Continental, International Buffet
+Tech Stack: HTML, Tailwind CSS, JavaScript (GSAP/ScrollTrigger, Framer Motion)
+Design Goal: Cinematic, premium, interactive, conversion-focused
+
+🧠 Prompt Start — Paste into Replit AI
+
+Design and build a fully responsive luxury restaurant website for Sky Pool Restaurant in Dhaka, Bangladesh. The site must feel premium, cinematic, and unforgettable. Include smooth animations using GSAP or Framer Motion, scroll-triggered effects, and elegant typography. Use Tailwind CSS for layout and styling.
+
+🎯 Brand Style
+
+Color Palette: Midnight Black #0c0c0c, Gold Gradient #D4A373 → #F8E9A1, Neon Blue accent #3AB0FF, White text
+
+Typography:
+
+Headings: Playfair Display or Cinzel
+
+Body: Poppins or Inter
+
+Mood: Skyline views, rooftop night lights, pool reflections, luxury vibes
+
+🌐 Website Structure & Animations
+📌 1. Hero Section
+
+Full-screen video background with rooftop and pool ambiance
+
+Animated text reveal:
+
+Headline: “Live the Sky High Dining Experience”
+
+Sub-heading: Continental & International Cuisine Above the City
+
+Buttons: Reserve Now + Explore Menu
+
+Parallax floating lights and subtle particle animations
+
+Fade-in GSAP text and buttons
+
+📌 2. Sticky Animated Nav
+
+Transparent → solid background on scroll
+
+Smooth scroll links to sections
+
+Logo highlight on hover
+
+📌 3. About Section
+
+Two-column layout:
+
+Left: Image of rooftop pool dining
+
+Right: Text with smooth fade-in
+
+Include micro animations like icon reveals
+
+Text Example:
+
+Sky Pool Restaurant offers unforgettable rooftop dining with panoramic views of Dhaka, world-class continental cuisine, and a relaxed luxury atmosphere perfect for casual evenings and special occasions.
+
+🍽️ 4. Featured Menu (Interactive & Animated)
+
+Create a filterable menu with categories:
+Continental ★ Buffet ★ Grill ★ Beverages ★ Desserts
+Use reveal animations and hover scaling.
+
+Sample Items (with prices):
+
+Sky Signature BBQ Platter — ৳2,200
+
+Grilled Tiger Prawns — ৳2,900
+
+Creamy Mushroom Risotto — ৳1,800
+
+Seasonal International Buffet — ৳3,500 / person (weekends)
+
+Charcoal Grilled Steaks — ৳3,000
+
+House-Special Mocktails — ৳450–৳650
+
+Dessert Trio Selection — ৳850
+
+Animate category switches and item reveals.
+
+📸 5. Gallery / Experience
+
+Masonry layout images
+
+Lightbox popup
+
+Scroll animations: images slide from sides
+
+Show rooftop pool, skyline views, buffet stations
+
+⭐ 6. Reviews Carousel
+
+Auto-scroll slider
+
+Star visuals with subtle bounce on active review
+
+Use real review style (no copyrighted text)
+
+📅 7. Reservation & Booking
+
+Premium card UI with Glassmorphism
+
+Fields:
+
+Name, Phone
+
+Date & Time picker
+
+Guests
+
+Smooth input focus animations
+
+Confirmation success animation
+
+📍 8. Contact & Location
+
+Include:
+
+Phone: +8801987009810
+
+Address: Six Seasons Hotel, 15th floor, House 19 Rd 96, Gulshan 2, Dhaka 1212, Bangladesh
+
+Hours: 12:00 PM – 11:00 PM daily
+
+Social icons with hover glow (Facebook / Instagram)
+
+🛠️ 9. Footer
+
+Minimal with:
+
+Quick links
+
+Copyright
+
+Tagline: “Elevate Every Meal”
+
+✨ Animation & Interaction Requirements
+
+GSAP ScrollTrigger: fade, slide-in, pin sections
+
+Framer Motion: button hover animations
+
+Parallax hero & gallery sections
+
+Preloader animation with logo outline reveal
+
+🧩 Performance & SEO
+
+Fast asset loading
+
+Lazy-loading images
+
+Semantic markup
+
+Meta tags: title, description
+
+📦 Deliverables
+
+Ready-to-deploy code on Replit
+
+Clean folder structure: /assets /scripts /styles
+
+Commented code
+
+SEO and accessibility optimized
+
+📍 Result Expectation
+
+This site should visually stun within 3 seconds, feel like a global premium restaurant brand site, and boost reservations.
