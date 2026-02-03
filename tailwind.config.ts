@@ -81,6 +81,14 @@ export default {
           busy: "rgb(239 68 68)",
           offline: "rgb(156 163 175)",
         },
+        // Custom Colors for Sky Pool Restaurant
+        gold: {
+          DEFAULT: "#D4A373",
+          light: "#F8E9A1",
+          dark: "#9C7653"
+        },
+        midnight: "#0c0c0c",
+        neon: "#3AB0FF",
       },
       fontFamily: {
         sans: ["var(--font-sans)"],
