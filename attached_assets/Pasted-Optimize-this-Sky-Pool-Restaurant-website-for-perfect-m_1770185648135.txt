@@ -1,0 +1,82 @@
+Optimize this Sky Pool Restaurant website for perfect mobile performance and responsiveness.
+
+Goals:
+- The website must look and feel premium on mobile.
+- No horizontal scrolling, no overflow issues, no broken spacing.
+- Smooth animations that do not lag on low-end phones.
+- Perfect touch-friendly UI.
+
+Do the following changes:
+
+1) Layout & Responsiveness
+- Make the site fully mobile-first.
+- Ensure all sections use responsive Tailwind classes:
+  - Use px-4 on mobile, px-6 on tablet, px-10 on desktop.
+  - Use max-w-7xl container and center content.
+- Fix any elements causing horizontal overflow:
+  - Add `overflow-x-hidden` to body.
+  - Ensure all images/videos use `w-full` and `max-w-full`.
+- Use responsive grids:
+  - Mobile: 1 column
+  - Tablet: 2 columns
+  - Desktop: 3-4 columns
+
+2) Typography
+- Scale fonts properly:
+  - Headline: text-3xl on mobile, text-5xl on desktop
+  - Body: text-base on mobile, text-lg on desktop
+- Ensure line height and spacing are clean and readable.
+
+3) Navigation (Mobile)
+- Replace desktop navbar with a mobile hamburger menu.
+- Add slide-in mobile menu with smooth animation.
+- Menu links must close the menu after tapping.
+- Sticky navbar should not cover content.
+- Add `scroll-margin-top` for anchor sections.
+
+4) Hero Section Mobile Fix
+- Ensure hero video background does not zoom incorrectly on mobile.
+- Use `object-cover` and proper height:
+  - h-[85vh] on mobile
+  - h-screen on desktop
+- Ensure buttons are stacked vertically on mobile.
+
+5) Animations & Performance
+- Reduce heavy animations on mobile:
+  - Disable large parallax effects on small screens.
+  - Use shorter animation duration on mobile.
+- Use GSAP ScrollTrigger only for major sections.
+- Use prefers-reduced-motion support:
+  - If user prefers reduced motion, disable animations.
+
+6) Images & Media
+- Add lazy-loading to all gallery images.
+- Compress image sizes and use correct responsive sizes.
+- Ensure the Google Maps iframe is responsive:
+  - Full width on mobile
+  - Fixed height around 280px–320px
+
+7) Buttons & Touch UI
+- Make all buttons at least 44px height.
+- Add proper spacing between buttons.
+- Improve form inputs for mobile:
+  - Large padding
+  - Easy typing
+  - Proper focus ring
+- Ensure the reservation form works smoothly on mobile.
+
+8) Fix Section Spacing
+- Use consistent vertical spacing:
+  - `py-16` on mobile
+  - `py-24` on desktop
+- Ensure cards have padding and do not touch edges.
+
+9) Test Checklist (Must Confirm)
+After updates, confirm:
+- No horizontal scroll on mobile
+- Navbar works perfectly
+- Gallery lightbox works on mobile
+- Form is usable and not cramped
+- Animations are smooth and not heavy
+
+Return the updated code with clean structure and comments.
